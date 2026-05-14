@@ -1,0 +1,47 @@
+
+using System;
+class ali
+{
+    static void Main(){
+
+int eng, ur, math, bio, obtained, tm;
+double = pr;
+console.Writeline(enter the marks on sub);
+
+console.Writeline(enter the marks on eng);
+eng = int.Parse(console.Readline());
+
+console.Writeline(enter the marks on ur);
+ur = int.Parse(console.Readline());
+
+console.Writeline(enter the marks on math);
+math = int.Parse(console.Readline());
+
+console.Writeline(enter the marks on bio);
+bio = int.Parse(console.Readline());
+
+console.Writeline( obtained marks on sub);
+obtained= eng+ur+math+bio;
+
+ console.Writeline( total marks on sub);
+ int = 500;
+   
+ pr = obtained/tm;
+ console.Writeline( "percentage =" pr);
+
+
+ if(pr>80){
+console.Writeline( "excllent " );
+ } 
+ else if(pr>60){
+    console.Writeline( "Good");
+
+ }
+ else if(pr>40){
+    console.Writeline( "poor");
+
+ }
+ else{onsole.Writeline( "Fail")};
+
+    }
+}
